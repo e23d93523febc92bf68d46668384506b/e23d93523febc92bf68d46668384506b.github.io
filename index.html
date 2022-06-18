@@ -17,21 +17,22 @@ html, body {
   padding: 0;
 }
 
-.parent {
+.container {
   margin: auto;
   height: 512px;
   width: 768px;
 }
 
-.child {
-  margin: auto;  /* Magic! */
+.image {
+  margin: auto;
   max-width: 100%;
   max-height: 100%;
+  border-radius: 11px;
 }
 </style>
 
-<div class="parent">
-  <img class="child" src="mvii.png"/>
+<div class="container">
+  <img id="image" src="mvii.png"/>
 </div>
 
 <!-- boo -->
